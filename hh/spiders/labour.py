@@ -6,7 +6,7 @@ from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 #from hh.items import HhItem
 
-reload(sys)  
+reload(sys)
 sys.setdefaultencoding('utf8')
 
 class LabourSpider(CrawlSpider):
