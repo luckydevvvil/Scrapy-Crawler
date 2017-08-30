@@ -69,4 +69,3 @@ class LabourSpider(CrawlSpider):
                 response.urljoin(next_page),
                 callback = self.parse
 			)
-
